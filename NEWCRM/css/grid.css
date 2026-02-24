@@ -1,0 +1,33 @@
+﻿body {
+}
+
+.dashboard12 {
+    border-collapse:collapse;text-align:center
+}
+
+.dashboard12 td {
+    padding:10px; 
+    border:1px solid #c1c1c1;
+    color:#444;
+    font-size:12px;
+}
+
+.dashboard12 th {
+    padding:4px 2px;
+    color:#707083;
+    text-shadow: 1px 1px 0px white;
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#e5e5e9),color-stop(1,#fbfbfc));
+    border:1px solid #c1c1c1;font-size:12px;text-align:center;
+}
+
+dashboard12 th a {
+    color:white;
+    text-decoration:none;
+}
+
+.dashboard12 th a:hover {
+    color:white;
+    text-decoration:none;
+}
+
+

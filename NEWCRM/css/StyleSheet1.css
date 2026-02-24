@@ -1,0 +1,50 @@
+﻿body, div, p, ul, li {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+body {
+    background-color: rgb(237,237,237);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+.menu {
+    
+    width: 100%;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    height: 40px;
+    color: rgb(243,243,243);
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+    .menu ul li {
+        float: right;
+        display: block;
+        list-style: none;
+        border-right: 1px solid rgb(10,85,125);
+        border-left: 1px solid rgb(67,153,200);
+    }
+
+
+
+        .menu ul li a {
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 40px;
+            padding: 8px 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu ul li:hover {
+            background-color: rgb(14,79,114);
+            border-right: 1px solid rgb(14,89,130);
+        }
